@@ -1,2 +1,346 @@
 /* Fonts */
-@import url(https://fonts.googleapis.com/css?family=Nunito|Open+Sans);.yellow{background:#f6c451}.nopadding{padding:0}.margin{margin:0}.dark{background:#2c2a27}.yellow-text{color:#f6c451!important}p,label{font-family:'Nunito',sans-serif;font-size:1.2em}h1{text-transform:uppercase;font-size:3.6em;font-weight:bold}h2{text-transform:uppercase}.main_h1{margin-left:25px}.section_spacing{padding-top:150px;padding-bottom:150px}.element_spacing{margin-top:75px}.navbar-toggle{margin-top:33px;background:#333}.navbar-default .navbar-collapse,.navbar-default .navbar-form{border:none;float:right}.breadcrumb{padding:17px 15px}.navbar_small .breadcrumb{padding:9px 15px}#small_logo{}#large_logo img{height:50px}nav .breadcrumb a{font-size:1.3em}.navbar-default{position:absolute}.navbar_small{position:fixed;z-index:1;top:0;left:0;width:100%;border-radius:0;background-color:#333!important;right:63px}.navbar_small .navbar-toggle{margin-top:16px}.navbar_small #large_logo{display:none}.navbar_small .navbar-brand{margin-top:10px}.navbar_small .breadcrumb{margin-top:14px}.navbar_small .breadcrumb a{font-size:1.1em}.navbar_small a{font-size:1.1em}.navbar-brand{}.navbar{width:100%}nav .breadcrumb{margin-top:28px;background:none}nav .navbar-brand{margin-top:14px}.navbar-default{background:none;border:none}nav a,.navbar-default .navbar-brand{text-transform:uppercase;font-family:'Open Sans',sans-serif;color:#fff;font-weight:bold}nav a:hover,.navbar-default .navbar-brand:hover{color:#f6c451}#landing_container{background-image:url(../images/landing.jpg);background-size:cover;background-position:50% 50%;margin-top:1px;background-color:#333}#testimonial{background-color:rgba(34,34,34,0.86);padding:10px 20px}#testimonial h1{color:#f6c451;font-family:'Nunito',sans-serif;font-size:3.5em;text-transform:uppercase;font-weight:bold}#testimonial p{color:white;font-size:1.3em}.usluga{padding:10px}.usluga_inner{cursor:pointer;min-height:320px;background-color:#ffd573;text-align:center;padding:30px 15px 0 15px}#usluga_bg p{margin-top:20px}.usluga p{margin-top:25px;font-weight:bold;text-transform:uppercase;font-size:1.2em}.usluga img{max-width:180px}.img-thumbnail{min-height:150px;width:100%;background-color:#eee}.usluga_tooltip{width:100%}#usluga_bg{padding:10px;background:#ffd573}.arrow{background-image:url(../images/arrow_up.png);height:34px;width:97px;margin-left:86px}.about_text p{margin-top:30px;margin-bottom:30px}#gallery img{width:100%;background-color:#eee;min-height:120px}.square_image{margin-bottom:30px}.dark h1,.dark h2{color:white}.dark p{color:white;font-weight:bold}#map{width:100%;background:#eee}.dark label{color:white}.dark input[type=text],.dark input[type=email],.dark input[type=tel]{height:60px}.dark input[type=text],.dark input[type=email],.dark input[type=tel],.dark textarea{display:block;width:100%;color:white;padding:10px;background-color:#2c2a27;outline:0;border:1px solid #747474}#form_submit_button{background-color:#ffd573;height:50px;border:none;text-transform:uppercase;font-weight:bold;text-align:left;padding-left:20px;width:100%;max-width:308px}#map iframe{pointer-events:none}@media (max-width:768px){#large_logo img{margin-left:0}.section_spacing{padding-top:70px;padding-bottom:70px}.element_spacing{margin-top:40px}}@media (max-width:420px){#testimonial{margin-top:70px!important}}
+@import url('https://fonts.googleapis.com/css?family=Nunito|Open+Sans');
+
+/* globals */
+
+.yellow{
+  background: #f6c451;
+}
+
+.nopadding{
+  padding:0px;
+}
+
+.margin{
+  margin:0px;
+}
+
+.dark{
+  background: #2c2a27;
+}
+
+.yellow-text{
+  color: #f6c451 !important;
+}
+
+p, label{
+  font-family: 'Nunito', sans-serif;
+  font-size:1.2em;
+}
+
+h1{
+  text-transform: uppercase;
+  font-size: 3.6em;
+  font-weight: bold;
+}
+
+h2{
+  text-transform: uppercase;
+}
+
+.main_h1{
+  margin-left: 25px;
+}
+
+.section_spacing{
+  padding-top:150px;
+  padding-bottom:150px;
+}
+
+.element_spacing{
+  margin-top:75px;
+}
+
+/* endglobals */
+
+/* NAV STYLING */
+
+.navbar-toggle{
+  margin-top: 33px;
+  background: #333;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border:none;
+  float:right;
+}
+
+.breadcrumb{
+  padding:17px 15px;
+}
+
+.navbar_small .breadcrumb{
+  padding:9px 15px;
+}
+
+#small_logo{
+  /*margin-left:100px;*/
+}
+
+#large_logo img{
+  height:50px;
+  /*margin-left:120px;*/
+}
+
+/* fixed navbar when scrolling */
+
+nav .breadcrumb a{
+  font-size:1.3em;
+}
+
+/* responsive small navbar*/
+.navbar-default{
+  position: absolute;
+}
+
+.navbar_small{
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width:100%;
+  border-radius:0;
+  background-color: #333 !important;
+  /*height: 65px;*/
+  right: 63px;
+}
+
+.navbar_small .navbar-toggle{
+  margin-top: 16px;
+}
+
+.navbar_small #large_logo{
+  display: none;
+
+}
+
+.navbar_small .navbar-brand{
+  margin-top:10px;
+}
+
+.navbar_small .breadcrumb{
+  margin-top:14px;
+}
+
+.navbar_small .breadcrumb a{
+  font-size:1.1em;
+}
+
+.navbar_small a{
+  font-size:1.1em;
+}
+
+/* end responsive small navbar */
+
+.navbar-brand{
+  /*margin-left:50px;*/
+}
+
+.navbar{
+  width:100%;
+}
+
+nav .breadcrumb{
+  margin-top:28px;
+  background:none;
+}
+
+nav .navbar-brand{
+  margin-top: 14px;
+}
+
+.navbar-default{
+  background:none;
+  border:none;
+}
+
+nav a, .navbar-default .navbar-brand{
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav a:hover, .navbar-default .navbar-brand:hover {
+  color: #f6c451;
+}
+
+/* END NAV STYLING */
+
+/* landing */
+#landing_container{
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-top:1px;
+  background-color: #333;
+}
+
+#testimonial{
+
+  background-color: rgba(34, 34, 34, 0.86);
+  padding:10px 20px 10px 20px;
+}
+
+#testimonial h1{
+  color: #f6c451;
+  font-family: 'Nunito', sans-serif;
+  font-size:3.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#testimonial p{
+  color: white;
+  font-size:1.3em;
+}
+
+/* endlanding */
+
+/* uslugi */
+.usluga{
+  padding:10px;
+
+}
+
+.usluga_inner{
+  cursor: pointer;
+  min-height: 320px;
+  background-color: #ffd573;
+  text-align: center;
+  padding:30px 15px 0px 15px;
+}
+
+#usluga_bg p{
+  margin-top:20px;
+}
+
+.usluga p{
+  margin-top:25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size:1.2em;
+}
+
+.usluga img{
+  max-width: 180px;
+}
+
+.img-thumbnail{
+  min-height: 150px;
+  width: 100%;
+  background-color: #eee;
+}
+
+.usluga_tooltip{
+
+  width:100%;
+}
+
+#usluga_bg{
+  padding:10px;
+  background: #ffd573;
+}
+
+.arrow {
+    background-image: url('../images/arrow_up.png');
+    height:34px;
+    width:97px;
+    margin-left: 86px;
+}
+/* enduslugi */
+
+/* za nas */
+.about_text p{
+  margin-top:30px;
+  margin-bottom: 30px;
+}
+/* endzanas */
+
+/* gallery */
+
+#gallery img{
+  width:100%;
+  background-color: #eee;
+  min-height: 120px;
+}
+
+.square_image{
+  margin-bottom:30px;
+}
+
+/* endgallery */
+
+/* contact */
+.dark h1, .dark h2{
+  color:white;
+}
+
+.dark p{
+  color:white;
+  font-weight: bold;
+}
+
+#map {
+  width: 100%;
+  background: #eee;
+}
+
+.dark label{
+  color:white;
+}
+
+.dark input[type=text], .dark input[type=email], .dark input[type=tel]{
+  height: 60px;
+}
+
+.dark input[type=text], .dark input[type=email], .dark input[type=tel], .dark textarea{
+  display: block;
+  width:100%;
+  color:white;
+  padding:10px;
+  background-color: #2c2a27;
+  outline: 0;
+  border: 1px solid #747474;
+}
+
+#form_submit_button{
+  background-color: #ffd573;
+  height: 50px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+  padding-left:20px;
+  width: 100%;
+  max-width: 308px;
+}
+
+#map iframe{
+  pointer-events: none;
+}
+/* endcontact */
+
+
+/* media query */
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+  #large_logo img{
+    margin-left:0px;
+  }
+
+  .section_spacing{
+    padding-top:70px;
+    padding-bottom:70px;
+  }
+
+  .element_spacing{
+    margin-top:40px;
+  }
+}
+
+@media (max-width: 420px){
+  #testimonial{
+    margin-top: 70px !important;
+  }
+}
