@@ -52,3 +52,9 @@ $('#usluga_4_trigger').click(function(){
         offset: 100
     });
 })();
+
+$("#map").click(function(){
+    $("#map iframe").removeClass("disabled_click");
+    console.log("clicked");
+
+})
