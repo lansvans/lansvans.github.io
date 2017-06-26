@@ -285,6 +285,7 @@ nav a:hover, .navbar-default .navbar-brand:hover {
 #map {
   width: 100%;
   background: #eee;
+  margin-top: 67px;
 }
 
 .dark label{
