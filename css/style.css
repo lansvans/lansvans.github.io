@@ -63,6 +63,7 @@ h2{
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
   border:none;
   float:right;
+  z-index: 2;
 }
 
 .breadcrumb{
@@ -344,5 +345,9 @@ nav a:hover, .navbar-default .navbar-brand:hover {
 @media (max-width: 420px){
   #testimonial{
     margin-top: 70px !important;
+  }
+
+  #landing_info{
+    top:50px;
   }
 }
