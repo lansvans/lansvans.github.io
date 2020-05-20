@@ -19,6 +19,10 @@
   background: #2c2a27;
 }
 
+.white-text {
+  color: white;
+}
+
 .yellow-text{
   color: #f6c451 !important;
 }
