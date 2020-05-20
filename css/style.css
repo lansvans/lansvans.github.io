@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito|Open+Sans');
 
 /* globals */
-
+.bqlo_li {
+  color: white;
+}
 .yellow{
   background: #f6c451;
 }
@@ -20,7 +22,7 @@
 }
 
 .white-text {
-  color: white;
+  color: white
 }
 
 .yellow-text{
