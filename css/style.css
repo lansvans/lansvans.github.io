@@ -55,6 +55,11 @@ h2{
 
 .custom_glyph {
   height: 55px;
+  width: 55px;
+}
+
+.large_min_height {
+  min-height:  195px;
 }
 
 .inline {
@@ -362,10 +367,16 @@ nav a:hover, .navbar-default .navbar-brand:hover {
 }
 /* endcontact */
 
+@media (max-width:1024px) {
+  .middle-when-mobile {
+    text-align: center;
+  }
+
+}
 
 /* media query */
 /*// Medium devices (tablets, 768px and up)*/
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
   #large_logo img{
     margin-left:0px;
   }
