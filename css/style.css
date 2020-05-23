@@ -21,6 +21,11 @@
   background: #2c2a27;
 }
 
+.dark-separator {
+  background: #2c2a27;
+  border-top: 1px solid #2c2a27;
+}
+
 .white-text {
   color: white
 }
@@ -44,6 +49,21 @@ h2{
   text-transform: uppercase;
 }
 
+.capital {
+  text-transform: uppercase;
+}
+
+.custom_glyph {
+  height: 55px;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
 .main_h1{
   margin-left: 25px;
 }
@@ -85,13 +105,8 @@ h2{
   padding:9px 15px;
 }
 
-#small_logo{
-  /*margin-left:100px;*/
-}
-
 #large_logo img{
   height:50px;
-  /*margin-left:120px;*/
 }
 
 /* fixed navbar when scrolling */
@@ -113,7 +128,6 @@ nav .breadcrumb a{
   width:100%;
   border-radius:0;
   background-color: #333 !important;
-  /*height: 65px;*/
   right: 63px;
 }
 
@@ -150,6 +164,10 @@ nav .breadcrumb a{
 
 .navbar{
   width:100%;
+}
+
+.accent_background_color {
+  background-color: #ffd573
 }
 
 nav .breadcrumb{
@@ -243,6 +261,15 @@ nav a:hover, .navbar-default .navbar-brand:hover {
   min-height: 150px;
   width: 100%;
   background-color: #eee;
+}
+
+.thumbnail {
+  border: none;
+  border-radius: 0px;
+}
+
+.margin-right-sm {
+  margin-right:6px;
 }
 
 .usluga_tooltip{
