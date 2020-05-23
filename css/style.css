@@ -362,6 +362,10 @@ nav a:hover, .navbar-default .navbar-brand:hover {
   max-width: 308px;
 }
 
+.gray-text {
+  color: #acacac;
+}
+
 .disabled_click{
   pointer-events: none;
 }
