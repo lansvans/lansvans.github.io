@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <title>Авангард</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="/css/lightbox.css" rel="stylesheet">
+  </head>
+  <body style="background: black">
+    <div class="nopadding container">
+        <div class="col-md-12">
+            <a class="navbar-brand" id="large_logo" href="/">
+                <img class="b-lazy" src="/images/logo.png" alt="">
+            </a>
+        </div>
+        
+    </div>
+
+    <div class="col-md-12"  id="service">
+        <div class="container">
+          <h1 class="main_h1 white-text">Изпълнени проекти</h1>
+          <div class="row">
+            <div class="col-md-12">
+                <section id="photos">
+                    <img src="/images/gallery/full/000.jpg" alt="Cute cat">
+                </section>
+            </div>
+        </div>
+    </div>
+
+  </body>
+  <script
+  	defer
+    src="//code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous">
+  </script>
+  <script defer type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script defer type="text/javascript" src="/js/lightbox.js"></script>
+  <script defer type="text/javascript" src="/js/blazy.min.js"></script>
+  <script defer type="text/javascript" src="/js/script.js"></script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-101249799-1', 'auto');
+    ga('send', 'pageview');
+
+
+    $(function() {
+    var selectedClass = "";
+    $(".filter").click(function() {
+        selectedClass = $(this).attr("data-rel");
+        $("#gallery").fadeTo(100, 0.1);
+        $("#gallery div").not("." + selectedClass).fadeOut().removeClass('animation');
+        setTimeout(function() {
+            $("." + selectedClass).fadeIn().addClass('animation');
+            $("#gallery").fadeTo(300, 1);
+        }, 300);
+    });
+});
+
+  </script>
+
+  <style>
+      #photos {
+        /* Prevent vertical gaps */
+        line-height: 0;
+        
+        -webkit-column-count: 5;
+        -webkit-column-gap:   0px;
+        -moz-column-count:    5;
+        -moz-column-gap:      0px;
+        column-count:         5;
+        column-gap:           0px;  
+        }
+
+        #photos img {
+        /* Just in case there are inline attributes */
+        width: 100% !important;
+        height: auto !important;
+        }
+
+        @media (max-width: 1200px) {
+        #photos {
+        -moz-column-count:    4;
+        -webkit-column-count: 4;
+        column-count:         4;
+        }
+    }
+    @media (max-width: 1000px) {
+    #photos {
+    -moz-column-count:    3;
+    -webkit-column-count: 3;
+    column-count:         3;
+    }
+    }
+    @media (max-width: 800px) {
+    #photos {
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
+    }
+    }
+    @media (max-width: 400px) {
+    #photos {
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
+    }
+    }
+  </style>
+</html>
