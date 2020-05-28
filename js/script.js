@@ -15,13 +15,11 @@ $(window).scroll(function () {
 });
 
 ;(function() {
-
-    $(function() {
-        $('.lazy').lazy({
-            threshold: 800
-        });
+    // Initialize
+    var bLazy = new Blazy({
+        offset: 1000,
+        selector: "img"
     });
-
 })();
 
 $("#map").click(function(){
