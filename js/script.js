@@ -17,7 +17,8 @@ $(window).scroll(function () {
 ;(function() {
     // Initialize
     var bLazy = new Blazy({
-        offset: 100
+        offset: 1000,
+        selector: "img"
     });
 })();
 

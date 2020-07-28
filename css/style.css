@@ -9,6 +9,10 @@
   background: #f6c451;
 }
 
+a:hover {
+  color: #f6c451;
+}
+
 .nopadding{
   padding:0px;
 }
