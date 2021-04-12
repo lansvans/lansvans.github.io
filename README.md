@@ -9,4 +9,4 @@
 7. otvarq se terminala na VS 
 8. startira se survara v terminala s komandata `ruby server.rb`
 1. Sled Kato se add i commit failovete, te trqbva da se pushnat s comandata `git push origin master`
-9. Derzai
+9. Derzai a
